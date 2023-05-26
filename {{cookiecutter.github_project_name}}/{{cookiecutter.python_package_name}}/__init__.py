@@ -21,7 +21,7 @@ def _jupyter_labextension_paths():
     """
     return [{
         'src': 'labextension',
-        'dest': '{{ cookiecutter.npm_package_name}}',
+        'dest': '{{ cookiecutter.python_package_name}}',
     }]
 
 
